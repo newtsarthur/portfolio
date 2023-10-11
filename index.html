@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta name="google-site-verification" content="lGy6DHFNzHQ7BSbcEmRn_SVd52HKoVTXeELwHSzGjbU">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Belo ◦ Portfólio</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/sobre-mim.css">
+</head>
+
+<body>
+  <header class="menu">
+    <nav>
+      <a href=""><img src="images/logo.png" id="logo" class="logo"></a>
+      <i class="fas fa-bars" id="ham-menu"></i>
+      <ul id="nav-bar">
+        <li>
+          <a href="#redirecionamento" class="scroll" style="font-size: 20px;">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#skills" style="    font-size: 20px;">Habilidades</a>
+        </li>
+        <li>
+          <a href="#projetos" style="    font-size: 20px;">Projetos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="page-inicial">
+      <div class="parte-texto">
+        <h1 id="meu-nome">Arthur Belo</h1>
+        <h2 id="meu-cargo">Desenvolvedor Back End</h2>
+        <div class="social-icons">
+          <a target="_blank" href="https://wa.me/5581981819621?text=Ol%C3%A1%2C+Arthur+Belo%2C+estou+entrando+em+contato+porque+vi+seu+portf%C3%B3lio+e+gostei+muito."><img src="images/whatsapp.png" alt="discord-icon"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/arthur-belo-a7a0a221a/"><img src="images/linkedin%20%281%29.png" alt="linkedin-icon"></a>
+          <a target="_blank" href="https://github.com/newtsarthur"><img src="images/github.png" alt="github-icon"></a>
+          <a target="_blank" href="mailto:arthurbelo98@gmail.com"><img src="images/o-email.png" alt="email-icon"></a>
+        </div>
+        <div class="setinha-pra-baixo">
+          <a href="#redirecionamento" class="scroll"><img src="images/seta-para-baixo.png" alt="seta-baixo"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sobre-mim">
+    <div id="redirecionamento">
+
+
+      <div class="sobre-mim">
+        <div class="foto-pessoal" style="text-align: center;">
+          <img src="images/foto_arthur.png" alt="img-teste" id="minha-foto">
+          <button id="btn-curriculo"><a href="./assets/Curriculo.pdf" target="_blank" style="color: unset;
+  text-decoration: unset;">Currículo</a></button>
+        </div>
+        <div class="descricao-sobre-mim">
+          <h1 style="color: white;" class="meu-nome">Arthur Belo</h1>
+          <h2 style="color:#ffbb00" class="meu-cargo">Back End</h2>
+          <p class="minha-desc">Sou um desenvolvedor back-end de 19 anos com quatro anos de experiência. Minha especialidade é o desenvolvimento em JavaScript e C#.
+            
+            <span id="tres-pontos" style="display: block;">...</span>
+            <span id="btn-continuar-lendo" onclick="MostrarDescricao()">Continuar Lendo</span>
+            <span id="descricao-completa">
+              Além disso, tenho experiência em Game Design, onde já criei diversos jogos para game jams. Essa vivência me proporcionou uma facilidade adicional para trabalhar com back-end, combinando minhas habilidades de designer e programador para criar soluções robustas e eficientes.
+            
+            
+            
+            
+            
+            </span>
+            <span id="ler-menos" onclick="EsconderDescricao()">Ler Menos</span>
+            
+          </p>
+        </div>
+      </div>
+      <div class="texto-skills" id="skills">
+        <h1 style="color:rgb(255, 255, 255)">Habilidades</h1>
+        <h2 style="font-weight: 300;">Linguagens nas quais tenho conhecimento</h2>
+        <p style="font-size: 15px!important">*/Mesmo tendo conhecimentos nessas linguagens, eu ainda as estudo./*</p>
+        <div class="skiils-linguagem">
+          <li>
+            <h3>C#</h3>
+            <span class="bar"><span class="react"></span></span>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <span class="bar"><span class="javascript"></span></span>
+          </li>
+          <li>
+            <h3>Python</h3>
+            <span class="bar"><span class="node"></span></span>
+          </li>
+          <li>
+            <h3>MySQL</h3>
+            <span class="bar"><span class="node"></span></span>
+          </li>
+          <li>
+            <h3>Bootstrap</h3>
+            <span class="bar"><span class="sass"></span></span>
+          </li>
+          <li>
+            <h3>Java</h3>
+            <span class="bar"><span class="mysql"></span></span>
+          </li>
+
+          <li>
+        </li></div>
+      </div>
+      <div class="projetos" id="projetos">
+        <h1 style="font-size: 33px;">Projetos</h1>
+        <div class="todos_projetos">
+          <div class="projeto" style="border: 1px solid #ff5100c0;">
+            <div class="img-space-movies"></div>
+            <h3 style="font-size: 23px;font-weight: 100;">Dona Mariazinha</h3>
+            <p id="descricao-projeto">Os usuários podem obter acesso a um livro de receitas. A interface é interativa, responsiva e inclui depoimentos dos <br>stakeholders.</p>
+            <div class="btns">
+              <a href="https://donamariazinha.vercel.app/" target="_blank"><button>Visualizar Projeto</button></a>
+              <a href="https://github.com/newtsarthur/Dona-Mariazinha" target="_blank"><button>Ver Código</button></a>
+            </div>
+          </div>
+          <div class="projeto" style="border: 1px solid #ff5100c0;">
+            <div class="img-hotel-palace"></div>
+            <h3 style="font-size: 23px;font-weight: 100;">BiuTur</h3>
+            <p id="descricao-projeto">O BiuTur é um site de turismo em Pernambuco com imagens e descrições dos quartos, reserva e formulário de contato, além de design responsivo.</p>
+            <div class="btns-hotel">
+              <a href="https://biutur.com.br/" target="_blank"><button>Visualizar Projeto</button></a>
+              <a href="https://github.com/newtsarthur/BiuTur" target="_blank"><button>Ver Código</button></a>
+            </div>
+          </div>
+        </div>
+        <a target="_blank" class="btn_ver_projetos" href="https://github.com/newtsarthur?tab=repositories"><button class="bn53">Ver Mais
+            Projetos</button></a>
+      </div>
+    </div>
+    <footer style="margin-top: 25px;background-color: rgba(0, 0, 0, 0.171);padding: 10px;">
+      <p style="color:white;text-align: center;font-size: 13px;">Copyright © 2023 <label style="color:rgb(255, 65, 65)">Arthur Belo</label> Todos os direitos reservados.</p>
+    </footer>
+  </section>
+  <script src="js/javascript.js"></script>
+
+
+
+</body></html>
